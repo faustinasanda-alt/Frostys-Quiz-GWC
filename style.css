@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(backdrop.jpg);
+  background-attachment: fixed;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: teal;
+  -webkit-text-stroke: 1px black;
+  font-family: "Henny Penny", cursive;
+  font-size: 65px;
+}
+
+p {
+  font-size: 25px;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+img {
+  border: 4px dotted darkblue;
+  outline: 3px dotted black;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+}
